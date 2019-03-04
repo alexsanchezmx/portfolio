@@ -7,6 +7,9 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+
 <style>
 body,h1 {font-family: "Raleway", Arial, sans-serif}
 h1 {letter-spacing: 6px}
@@ -22,105 +25,12 @@ h1 {letter-spacing: 6px}
 
 
 
-  <div class="profile">
-          <div class="photo">
-              <input type="file" accept="image/*">
-              <div class="photo__helper">
-                  <div class="photo__frame photo__frame--circle">
-                      <canvas class="photo__canvas"></canvas>
-                      <div class="message is-empty">
-                          <p class="message--desktop">Drop your photo here or browse your computer.</p>
-                          <p class="message--mobile">Tap here to select your picture.</p>
-                      </div>
-                      <div class="message is-loading">
-                          <i class="fa fa-2x fa-spin fa-spinner"></i>
-                      </div>
-                      <div class="message is-dragover">
-                          <i class="fa fa-2x fa-cloud-upload"></i>
-                          <p>Drop your photo</p>
-                      </div>
-                      <div class="message is-wrong-file-type">
-                          <p>Only images allowed.</p>
-                          <p class="message--desktop">Drop your photo here or browse your computer.</p>
-                          <p class="message--mobile">Tap here to select your picture.</p>
-                      </div>
-                      <div class="message is-wrong-image-size">
-                          <p>Your photo must be larger than 350px.</p>
-                      </div>
-                  </div>
-              </div>
+<img src="profilePic.jpg" id="proPic" alt="me">
 
-              <div class="photo__options hide">
-                  <div class="photo__zoom">
-                      <input type="range" class="zoom-handler">
-                  </div><a href="javascript:;" class="remove"><i class="fa fa-trash"></i></a>
-              </div>
-          </div>
-      </div>
+<h1>Alex Sánchez</h1>
 
-      <hr>
-      <button type="button" id="previewBtn">Preview</button>
-      <button type="button" id="uploadBtn">Upload Example</button>
-  <code id="uploadExample" style="display: none">
-    <h1>Cropping on backend</h1>
-    <pre>
-  $('#uploadBtn').on('click', function() {
-      var formData,
-          data = p.getData();
+  <h1 id="w3-xlarge" style="width: 100%">WEB DEVELOPER</h1>
 
-      formData = new FormData();
-      formData.append('file', data.file);
-      // Crop size ( Final image size )
-      formData.append('cropHeight', data.cropHeight);
-      formData.append('cropWidth', data.cropWidth);
-      // Image X and Y position
-      formData.append('x', data.x);
-      formData.append('y', data.y);
-      // New image size (the size needed to position the image)
-      formData.append('newWidth', data.width);
-      formData.append('newHeight', data.height);
-      // Zoom/Scale; 0.1 = 10%
-      formData.append('zoom', data.zoom);
-      // Original image size (if needed)
-      formData.append('originalWidth', data.originalWidth);
-      formData.append('originalHeight', data.originalHeight);
-
-      $.ajax({
-          url: "fakeserve/upload",
-          data: formData,
-          processData: false,
-          type: 'POST',
-          contentType: 'multipart/form-data',
-          mimeType: 'multipart/form-data',
-          success: function (data) {
-              console.log(data);
-          }
-      });
-
-  });
-  </pre>
-  <h1>Sending already croppend (DataURL) to backend (Check security issues)</h1>
-    <p>Backend should save the image file with the DataURL content</p>
-    <pre>
-  $('#uploadBtn').on('click', function() {
-      var image = p.getAsDataURL();
-
-      $.post("fakeserver/upload", { image: image });
-
-  });
-  </pre>
-
-
-  </code>
-      <hr>
-      <img src="" alt="" class="preview">
-      <img src="" alt="" class="preview preview--rounded">
-
-
-
-
-  <h1 class="w3-xlarge">Web Developer</h1>
-  <h1>Alex Sánchez</h1>
 
   <div class="w3-padding-32">
     <div class="w3-bar w3-border">
