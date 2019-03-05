@@ -5,7 +5,7 @@ body,h1 {
 
 }
 
-h1 {
+#name {
   letter-spacing: 6px;
 }
 
@@ -23,7 +23,7 @@ vertical-align: top;
 
 }
 
-#w3-xlarge {
+#prof {
 
 color: black;
 font-size: 350%;
@@ -87,11 +87,18 @@ padding: 50px;
 
 }
 
+
 .fa {
 
 font-size: 300%;
 letter-spacing: 5px;
 padding-top: 50px;
 
+
+}
+
+#footer-text {
+
+letter-spacing: 2px;
 
 }
