@@ -31,7 +31,12 @@ vertical-align: top;
 color: red;
 font-size: 350%;
 
+}
 
+#footer-container {
+
+background-color: lightgrey;
+padding: 64px;
 
 
 }
