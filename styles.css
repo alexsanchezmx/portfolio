@@ -36,7 +36,7 @@ font-size: 350%;
 #footer-container {
 
 background-color: lightgrey;
-padding: 64px;
+padding: 50px;
 
 
 }
@@ -44,6 +44,8 @@ padding: 64px;
 .fa {
 
 font-size: 300%;
+letter-spacing: 5px;
+padding-top: 50px;
 
 
 }
