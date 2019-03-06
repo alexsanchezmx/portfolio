@@ -23,6 +23,31 @@ vertical-align: top;
 
 }
 
+#w3-xlarge {
+
+color: black;
+font-size: 350%;
+
+}
+
+.logo {
+  -webkit-animation: flicker 5s infinite;
+  text-align:center;
+  margin-top:3em;
+}
+
+@-webkit-keyframes flicker
+{
+0% {opacity:0;}
+9% {opacity:0;}
+10% {opacity:.5;}
+13% {opacity:0;}
+20% {opacity:.5;}
+25% {opacity:1;}
+30% {opacity:0;}
+31% {opacity:0;}
+32% {opacity:0;}
+}
 
 .button {
   background-color: #4CAF50; /* Green */
