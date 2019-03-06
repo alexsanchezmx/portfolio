@@ -1,4 +1,14 @@
-body,h1 {
+body {
+
+  font-family: "Raleway", Arial, sans-serif;
+  text-align: center;
+  background-color: black;
+
+}
+
+h1
+
+{
 
   font-family: "Raleway", Arial, sans-serif;
   text-align: center;
@@ -7,6 +17,8 @@ body,h1 {
 
 #name {
   letter-spacing: 6px;
+  padding: 30px;
+  color: white;
 }
 
 .w3-row-padding img {
