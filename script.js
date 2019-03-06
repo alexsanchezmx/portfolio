@@ -1,5 +1,5 @@
 
-let darkmodefunc = function() {
+function darkmodefunc() {
 
 let getBody = document.querySelector("body");
 
