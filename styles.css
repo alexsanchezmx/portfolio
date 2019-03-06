@@ -30,10 +30,9 @@ font-size: 350%;
 
 }
 
-.logo {
+#logo {
   -webkit-animation: flicker 5s infinite;
   text-align:center;
-  margin-top:3em;
 }
 
 @-webkit-keyframes flicker
