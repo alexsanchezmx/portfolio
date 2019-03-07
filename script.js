@@ -1,12 +1,7 @@
 
-function darkmodefunc() {
 
-let getBody = document.querySelector("body");
+function modefunc() {
 
-let getName = document.querySelector("#name");
-
-getBody.style.backgroundcolor = "white";
-
-getName.style.color = "black";
+document.getElementById("name").style.color = "red";
 
 }
