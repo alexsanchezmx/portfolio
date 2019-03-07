@@ -2,6 +2,6 @@
 
 function modefunc() {
 
-document.getElementById("name").style.color = "red";
+document.getElementById("bod").style.backgroundColor = "white";
 
 }
