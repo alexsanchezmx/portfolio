@@ -203,6 +203,7 @@ vertical-align: top;
  border-color: black;  }
 
  #name {
+   font-size: 150%;
    letter-spacing: 1px;
    padding: 30px;
    color: white;
@@ -212,7 +213,7 @@ vertical-align: top;
    background-color: #4CAF50; /* Green */
    border: none;
    color: white;
-   padding: 12px 20px;
+   padding: 12px 15px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
@@ -255,5 +256,12 @@ vertical-align: top;
    background-color: #f44336;
    color: white;
  }
+
+ #footer-text {
+
+ letter-spacing: 1px;
+
+ }
+
 
 }
