@@ -145,6 +145,7 @@ vertical-align: top;
 .butt1:hover {
   background-color: #4CAF50;
   color: white;
+  border-color: white;
 }
 
 .butt2 {
@@ -153,7 +154,10 @@ vertical-align: top;
   border: 2px solid black;
 }
 
-.butt2:hover {background-color: #e7e7e7;}
+.butt2:hover {
+
+  background-color: #e7e7e7;
+  border-color: white; }
 
 .butt3 {
   background-color: #f44336;
@@ -164,6 +168,7 @@ vertical-align: top;
 .butt3:hover {
   background-color: #f44336;
   color: white;
+  border-color: white;
 }
 
 
