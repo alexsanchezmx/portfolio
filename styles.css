@@ -1,8 +1,8 @@
 body {
 
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "proxima novw";
   text-align: center;
-  background-color: black;
+  background-color: #255784;
 
 }
 
@@ -81,7 +81,7 @@ h1
 }
 
 #name {
-  letter-spacing: 6px;
+  letter-spacing: 5px;
   padding: 30px;
 color: white;
 }
@@ -96,7 +96,7 @@ vertical-align: top;
  border-radius: 50%;
  border: solid;
  border-width: medium;
- border-color: black;
+ border-color: brown;
 
 }
 
